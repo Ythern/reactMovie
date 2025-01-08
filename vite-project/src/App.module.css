@@ -1,0 +1,33 @@
+/* Style global pour les liens */
+.link {
+    text-decoration: none; /* Retirer le souligné par défaut des liens */
+    color: #007bff; /* Couleur bleue pour les liens */
+    font-size: 16px; /* Taille de police */
+    font-weight: 500; /* Poids de la police */
+    margin: 0 15px; /* Espacement horizontal entre les liens */
+    padding: 10px 20px; /* Espacement interne pour donner l'apparence d'un bouton */
+    border-radius: 25px; /* Coins arrondis */
+    transition: all 0.3s ease; /* Transition pour un effet fluide au survol */
+  }
+  
+  /* Effet au survol pour les liens */
+  .link:hover {
+    background-color: #007bff; /* Fond bleu au survol */
+    color: #fff; /* Texte blanc au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+    text-decoration: none; /* Enlever le souligné au survol */
+  }
+  
+  /* Effet actif sur le lien (lorsque l'utilisateur clique sur le lien) */
+  .link:active {
+    transform: scale(1); /* Revenir à la taille normale lorsqu'on clique */
+    background-color: #0056b3; /* Fond plus sombre lors du clic */
+  }
+  
+  /* Styles supplémentaires pour organiser les liens horizontalement */
+  .link-container {
+    display: flex;
+    justify-content: center; /* Centrer les liens horizontalement */
+    margin-top: 20px; /* Ajouter un peu d'espace au-dessus des liens */
+  }
+  

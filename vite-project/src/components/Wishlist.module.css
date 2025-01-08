@@ -1,0 +1,71 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style pour la page Wishlist */
+  .wishlistContainer {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  /* Titre de la wishlist */
+  .wishlistContainer h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Conteneur pour chaque film dans la wishlist */
+  .wishlistItem {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Effet de survol sur les éléments de la wishlist */
+  .wishlistItem:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image du film dans la wishlist */
+  .wishlistItem img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  /* Nom du film dans la wishlist */
+  .wishlistItem p {
+    font-size: 18px;
+    color: #333;
+    flex: 1;
+  }
+  
+  /* Bouton pour retirer le film de la wishlist */
+  .wishlistItem button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wishlistItem button:hover {
+    background-color: #c0392b;
+  }
+  

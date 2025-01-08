@@ -1,0 +1,83 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style pour la page de détails du film */
+  .movieDetailContainer {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  /* Titre du film */
+  .movieDetailContainer h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Image du film */
+  .movieDetailContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Section des informations sur le film (Note, Description, Date) */
+  .movieDetailContainer p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Bouton pour ajouter à la wishlist */
+  .movieDetailContainer button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .movieDetailContainer button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Section des acteurs */
+  .movieDetailContainer h4 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Liste des acteurs */
+  .movieDetailContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .movieDetailContainer ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Erreur lors du chargement */
+  .error-message {
+    color: #e74c3c;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  

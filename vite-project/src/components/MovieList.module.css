@@ -1,0 +1,81 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style pour l'élément principal de la liste */
+  .movieListContainer {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  /* Style pour l'input de recherche */
+  .searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .searchInput:focus {
+    border-color: #007bff;
+  }
+  
+  /* Conteneur pour les films */
+  .movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  /* Style pour chaque carte de film */
+  .movieCard {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .movieCard:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style pour l'image du film */
+  .movieCard img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Style pour le titre du film */
+  .movieCard h3 {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  /* Style pour la note du film */
+  .movieCard p {
+    font-size: 14px;
+    color: #888;
+    padding-bottom: 10px;
+  }
+  
+  /* Message si aucune recherche n'a donné de résultat */
+  .noResults {
+    text-align: center;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
